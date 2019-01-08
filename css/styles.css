@@ -15,6 +15,8 @@ main h1{
     clear:both;
 }
 main img{
+    max-height: 250px;
+    max-width:200px;
     float: right;
 }
 footer{
