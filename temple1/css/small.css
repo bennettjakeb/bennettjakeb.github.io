@@ -53,11 +53,18 @@
     main h1 {color: #75705b; }
     main article h3 {color: #75705b;}
     
-    main figure img {width: 100%;}
+    main figure img {max-width: 450px;}
     main figure{
         width: 100%;
         margin: 0;
     }
+
+    div.ensign {
+        clear:both;
+        column-count: 2;
+        column-rule: 1px solid #ddd;
+    }
+
     main figcaption {text-align: center; font-size: .8rem;}
     
     footer {
