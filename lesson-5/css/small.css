@@ -55,11 +55,40 @@ nav ul li.active a {
   display: none;
 }
 
+img{
+  width:100%;
+  margin: 3px;
+}
+
+/*Article*/
+
+article h1 {margin: 12px;}
+
+article {margin: 8px;}
+
+figure img {
+
+  width: 100%;
+
+}
+figure{
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+figcaption {text-align: center;}
+
 
 /*----------- FOOTER --------------*/
+.contact{
+  margin: 0;
+  background-color: grey;
+}
+
 footer {
     background-color: #F0F3Bd;
-    padding: .5rem 2%;
+    margin: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
