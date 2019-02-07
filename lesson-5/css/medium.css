@@ -1,5 +1,5 @@
 /* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 560px) {
 
 
     /*----------- BODY --------------*/
@@ -11,10 +11,26 @@
     
     /*----------- NAVIGATION --------------*/
 
+    .flex-container {
+        display: flex;
+        justify-content: left;
+        margin-left: auto;
+        color: #eee;
+        padding: .5rem 0;
+        text-decoration: none;
+        font-size: .9rem;
+    }
+    .flex-container li {
+        margin-left: auto;
+    }
     /*----------- MAIN --------------*/
 
+    .current{
+        display: inline-block;
+        background-color: rgba(170, 167, 167, 0.87);
+    }
     
     /*----------- FOOTER --------------*/
 
     
-    } /* end of media query */
+}/* end of media query */

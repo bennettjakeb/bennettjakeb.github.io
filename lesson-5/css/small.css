@@ -34,7 +34,8 @@ nav ul {
 }
 
 nav ul li a {
-    display: block;
+    display: flex;
+    justify-content: center;
     color: #eee;
     padding: .5rem 0;
     text-decoration: none;
@@ -50,7 +51,9 @@ nav ul li.active a {
 }
 
 /*----------- MAIN --------------*/
-
+.current{
+  display: none;
+}
 
 
 /*----------- FOOTER --------------*/
