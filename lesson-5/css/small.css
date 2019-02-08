@@ -51,13 +51,23 @@ nav ul li.active a {
 }
 
 /*----------- MAIN --------------*/
-.current{
+
+main h2{
+  display: none;
+}
+
+.current {
   display: none;
 }
 
 img{
   width:100%;
-  margin: 3px;
+  margin: auto;
+}
+
+.fiveday{
+
+  display: none;
 }
 
 /*Article*/
@@ -82,7 +92,9 @@ figcaption {text-align: center;}
 
 /*----------- FOOTER --------------*/
 .contact{
-  margin: 0;
+  display: block;
+  width: 100%;
+  margin: auto;
   background-color: grey;
 }
 
