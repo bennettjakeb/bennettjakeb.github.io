@@ -32,6 +32,8 @@ main h1{
 
     main h1{margin: auto;}
 
+    main h2{ visibility: visible;}
+
     .current{
         display: block;
         min-width: 100px;
@@ -46,6 +48,9 @@ main h1{
         margin: 8px;
     }
 
+    .fiveday h2{
+        visibility: visible; 
+    }
     table, th, td{
         text-align: center;
         border: 1px solid black;

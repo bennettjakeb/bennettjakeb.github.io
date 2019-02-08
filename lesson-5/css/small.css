@@ -52,9 +52,6 @@ nav ul li.active a {
 
 /*----------- MAIN --------------*/
 
-main h2{
-  display: none;
-}
 
 .current {
   display: none;
@@ -69,6 +66,8 @@ img{
 
   display: none;
 }
+
+.fiveday h2{ text-align: center;}
 
 /*Article*/
 
