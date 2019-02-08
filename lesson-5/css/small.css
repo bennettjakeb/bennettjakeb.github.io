@@ -94,12 +94,13 @@ figcaption {text-align: center;}
 .contact{
   display: block;
   width: 100%;
-  margin: auto;
+  margin: 0; 
   background-color: grey;
 }
 
 footer {
     background-color: #F0F3Bd;
+    display: block;
     margin: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
