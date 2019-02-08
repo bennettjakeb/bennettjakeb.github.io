@@ -6,4 +6,9 @@ header, footer, nav, main {max-width:75rem; margin: auto;}
 
 article figure img {max-width: 40%}
 
+.hero{
+    display: block;
+    max-width:75rem;
+}
+
 }

@@ -26,7 +26,7 @@ main h1{
 
     /*----------- MAIN --------------*/
 
-    .hero{
+    .hero1{
         margin: 10px;
     }
 
@@ -35,12 +35,13 @@ main h1{
     main h2{ visibility: visible;}
 
     .current{
-        display: block;
+
+        display: inline-block;
         min-width: 100px;
         background-color: rgba(231, 216, 216, 0.788);
         position: absolute;
-        left: 15px;
-        top: 165px;
+        top: 10rem;
+      
     }
 
     .fiveday{
