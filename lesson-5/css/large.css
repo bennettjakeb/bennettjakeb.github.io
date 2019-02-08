@@ -2,7 +2,7 @@
 @media only screen and (min-width: 64rem) {
 
 /*----------- BODY --------------*/
-header, footer, nav, main {max-width:90rem; margin: auto;}
+header, footer, nav, main {max-width:75rem; margin: auto;}
 
 article figure img {max-width: 40%}
 
