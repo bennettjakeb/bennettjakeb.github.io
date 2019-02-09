@@ -40,7 +40,8 @@ main h1{
         min-width: 100px;
         background-color: rgba(231, 216, 216, 0.788);
         position: absolute;
-        top: 10rem;
+        top: 9rem;
+        margin: 10px;
       
     }
 
