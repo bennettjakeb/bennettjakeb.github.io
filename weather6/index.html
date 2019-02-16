@@ -13,6 +13,7 @@
 <link href="css/small.css" rel="stylesheet">
 <link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
+<script src="scripts/hamburger.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
 
 <nav>
     <button onclick="toggleMenu()">&#9776;</button>
-<ul>
+<ul id="primaryNav" class="hide">
     <li><a href="#">Home</a></li>
     <li class="active"><a href="#">Preston</a></li>
     <li><a href="#">Soda Springs</a></li>
@@ -89,9 +90,7 @@
             <td>46° / 52°</td>
             <td>NorthWest 6mph</td>
         </tr>
-
     </table>
-
 
 </div>
 
@@ -130,16 +129,11 @@
     </p>
 </div>
 
-
 </main>
-
 
 <footer>
     &copy; Jake Bennett | <script src="scripts/currentdate.js"></script>
 </footer>
-
-
-
 
 </body>
 </html>
