@@ -15,6 +15,8 @@
         display: none;
     }
 
+    nav ul.hide{display: block;}
+
 nav li {
     background-color: #05668D;
     float: left;
