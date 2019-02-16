@@ -22,6 +22,14 @@ header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
 
 /*----------- NAVIGATION --------------*/
 
+nav button {
+  margin: .2rem 2%;
+  background-color: rgba(220, 230, 235, 0.897);
+  border: none;
+  font-size: 1.6rem;
+
+}
+
 nav {
     background-color: #05668D;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +57,8 @@ nav ul li.active a {
     background-color: rgb(97, 170, 154);
     color: #fff;
 }
+
+nav ul.hide {display: none;}
 
 /*----------- MAIN --------------*/
 

@@ -11,6 +11,10 @@
     
     /*----------- NAVIGATION --------------*/
 
+    nav button{
+        display: none;
+    }
+
 nav li {
     background-color: #05668D;
     float: left;
