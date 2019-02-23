@@ -14,10 +14,13 @@ header {
     padding: .5rem 2%;
     background-color: #F0F3BD;
     font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 75px auto;
     
 }
 header img{float:left; margin-right: 10px; width: 50px;}
-header h1 {margin: 0; font-size: 1.5rem; font-family: 'Oswald', sans-serif;}
+header h1 {margin: 0; font-size: 1.5rem; font-family: 'Oswald', sans-serif;
+margin-top: .5rem;}
 header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
 
 /*----------- NAVIGATION --------------*/
