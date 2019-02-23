@@ -11,4 +11,9 @@ article figure img {max-width: 40%}
     max-width:75rem;
 }
 
+div.familygallery figure {
+    flex-basis: 29%;
+}
+
+img:hover {box-shadow: 0 0 75px #028090}
 }

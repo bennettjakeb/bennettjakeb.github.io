@@ -70,11 +70,19 @@ nav ul.hide {display: none;}
   display: none;
 }
 
-main .gallery{
+div.familygallery {
   display: flex;
   flex-wrap: wrap;
 }
 
+div.familygallery figure {
+  flex-basis:96%;
+  margin: 1rem 2%;
+}
+
+div.familygallery figure img {
+  width: 100%;
+}
 
 img{
   width:100%;
