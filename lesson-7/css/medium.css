@@ -80,7 +80,7 @@ main h1{
         display: none;
     }
 
-    div.familygallery figure {
+    div.weathergallery figure {
         flex-basis: 46%;
     }
 

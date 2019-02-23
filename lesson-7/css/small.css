@@ -70,17 +70,17 @@ nav ul.hide {display: none;}
   display: none;
 }
 
-div.familygallery {
+div.weathergallery {
   display: flex;
   flex-wrap: wrap;
 }
 
-div.familygallery figure {
+div.weathergallery figure {
   flex-basis:96%;
   margin: 1rem 2%;
 }
 
-div.familygallery figure img {
+div.weathergallery figure img {
   width: 100%;
 }
 
