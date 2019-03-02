@@ -1,0 +1,175 @@
+<!doctype HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="Weather site" content="Weather and updates near Preston Idaho">
+<meta name="Author" content="Jakeb Bennett">
+<title>Preston Weather</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<script src="scripts/hamburger.js"></script>
+</head>
+
+<body>
+
+<header class="clearfix">
+    <img src="images/optimizedlogo.jpeg" alt="Website Logo">
+<div>
+    <h1>Best Weather</h1>
+    <h2>No matter rain, or shine</h2>
+</div>
+</header>
+
+
+<nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+<ul id="primaryNav" class="hide">
+    <li><a href="#">Home</a></li>
+    <li class="active"><a href="#">Preston</a></li>
+    <li><a href="#">Soda Springs</a></li>
+    <li><a href="#">Fish Haven</a></li>
+    <li><a href="#">Storm Center</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+</ul>
+</nav>
+
+<main>
+    <h1>Preston Idaho</h1>
+
+    <div class="hero">
+            <img src="images/optimizedmainhero.jpeg" alt="A photo of a clear sunny day"
+                 srcset="images/small200.jpeg 200w,
+                         images/medium500.jpeg 500w,
+                         images/large800.jpeg 800w,
+                        "
+            >
+
+            
+            <p class="current">
+            Current Conditions<br>
+            Partly Cloudy<br>
+            Low: 36°<br>
+            High: 59°<br>
+            Windspeed: 8mph <br>
+            Windchill:<script src="scripts/windchill.js"></script>
+           </p>
+    </div>
+
+<div class="fiveday">
+    <h2>Five-day Forecast Details</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Day</th>
+            <th>Description</th>
+            <th>Low/High</th>
+            <th>Wind</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Partly Cloudy</td>
+            <td>36° / 59°</td>
+            <td>West 8mph</td>
+        </tr>
+        <tr>   
+            <td>Tuesday</td>    
+            <td>Showers</td>
+            <td>30° / 53°</td>
+            <td>SouthWest 4mph</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Sunny</td>
+            <td>48° / 59°</td>
+            <td>North 5mph</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Light Showers</td>
+            <td>37° / 45°</td>
+            <td>South 4mph</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Partly Cloudy</td>
+            <td>46° / 52°</td>
+            <td>NorthWest 6mph</td>
+        </tr>
+    </table>
+
+</div>
+
+<article>
+    <h1>This day in history</h1>
+    <figure>
+    <img src="images/optimizedbeetles.jpg" alt="A photo of the whole band in the beetles">
+        <figcaption>The Beetles</figcaption>
+    </figure>
+    <p>
+        On February 7, 1964, Pan Am Yankee Clipper flight 101 from London
+        Heathrow lands at New York’s Kennedy Airport–and “Beatlemania” arrives.
+        It was the first visit to the United States by the Beatles, a British 
+        rock-and-roll quartet that had just scored its first No. 1 U.S. hit six
+        ays before with “I Want to Hold Your Hand.” At Kennedy, the 
+        “Fab Four”–dressed in mod suits and sporting their trademark pudding
+        bowl haircuts–were greeted by 3,000 screaming fans who caused a near
+        riot when the boys stepped off their plane and onto American soil.
+    </p>
+</article>
+
+<div class="contact">
+
+    <p>Address:<br>
+    The Weather Center 
+    123 Main Street
+    Middle of Nowhere, Wisconsin, 89489
+    </p>
+
+    <p>
+    Phone: (890)-555-5666
+    </p>
+
+    <p>
+    Email: hailsnortumchiresauce @email.com
+    </p>
+</div>
+
+</main>
+
+<footer>
+    &copy; Jake Bennett | <script src="scripts/currentdate.js"></script>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
