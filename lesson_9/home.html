@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="Weather site" content="Weather and updates near Preston Idaho">
 <meta name="Author" content="Jakeb Bennett">
-<title>Preston Weather</title>
+<title>Home</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -14,6 +14,8 @@
 <link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
 <script src="scripts/hamburger.js"></script>
+
+<body>
 
 <header class="clearfix">
         <img src="images/optimizedlogo.jpeg" alt="Website Logo">
@@ -36,15 +38,13 @@
     </ul>
     </nav>
 
-  <body>
+  <main>
 
-      <header>
-
-      </header>
-
-      <section>
+      <section id="town">
 
       </section>
+
+    
 
     <script>
     var header = document.querySelector('header');
@@ -62,13 +62,30 @@
     function showTown(jsonObj) {
   var cities = jsonObj['towns'];
       
-  for (var i = 0; i < cities.length-4;i++) {
+  for (var i = 0; i < cities.length;i++) {
+
+    if(cities[i].name == "Preston" || cities[i].name == "Soda Springs" || cities[i].name == "Fish Haven"){
+
     var myArticle = document.createElement('article');
     var myH2 = document.createElement('h2');
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myPara4 = document.createElement('p');
+    var myImg = document.createElement('img');
+
+    
+    if (cities[i].name == "Preston") {
+                myImg.setAttribute('src', 'https://visitfremantle.assets-be.digital/images/article/Weather-and-Climate/Weather-and-climate-iStock_000016004318Medium.jpg');
+                myImg.setAttribute('alt', 'Preston');
+            } else if (cities[i].name == "Soda Springs") {
+                myImg.setAttribute('src', 'https://visitfremantle.assets-be.digital/images/article/Weather-and-Climate/Weather-and-climate-iStock_000016004318Medium.jpg');
+                myImg.setAttribute('alt', 'Soda Springs');
+            } else if (cities[i].name == "Fish Haven") {
+                myImg.setAttribute('src', 'https://visitfremantle.assets-be.digital/images/article/Weather-and-Climate/Weather-and-climate-iStock_000016004318Medium.jpg');
+                myImg.setAttribute('alt', 'Fish Haven');
+            }
+    
 
     myH2.textContent = cities[i].name;
     myPara1.textContent = 'Motto: ' + cities[i].motto;
@@ -82,13 +99,16 @@
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
+    myArticle.appendChild(myImg);
     
 
     section.appendChild(myArticle);
   }
+  }
 }
 
     </script>
+
   </body>
 
   <div class="contact">
