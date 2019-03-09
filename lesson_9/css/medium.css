@@ -1,0 +1,95 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35em) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+
+    
+    /*----------- NAVIGATION --------------*/
+
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{display: block;}
+
+nav li {
+    background-color: #05668D;
+    float: left;
+    width: 16.6%;
+    margin-left: auto;
+}
+
+main h1{
+    clear:both;
+    padding: 6px;
+}
+
+
+    /*----------- MAIN --------------*/
+
+    .hero1{
+        margin: 10px;
+    }
+
+    main h1{margin: auto;}
+
+    main h2{ visibility: visible;}
+
+    .current{
+
+        display: inline-block;
+        min-width: 100px;
+        background-color: rgba(231, 216, 216, 0.788);
+        position: absolute;
+        top: 9rem;
+        margin: 10px;
+        padding: 1rem;
+      
+    }
+
+    .fiveday{
+        display:block;
+        margin: 8px;
+    }
+
+    .fiveday h2{
+        visibility: visible; 
+    }
+    table, th, td{
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    th{
+        background-color:#F0F3BD;
+    }
+
+    article img{
+        max-width: 350px;
+        float: right;
+        padding: 1em;
+        clear: both;
+    }
+
+    article figcaption{
+        display: none;
+    }
+
+    div.weathergallery figure {
+        flex-basis: 46%;
+    }
+
+    
+    /*----------- FOOTER --------------*/
+
+
+    .contact{
+        column-count: 2;
+    }
+    
+}/* end of media query */

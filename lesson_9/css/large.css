@@ -1,0 +1,26 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+/*----------- BODY --------------*/
+header, footer, nav, main {max-width:75rem; margin: auto;}
+
+article figure img {max-width: 40%}
+
+.hero{
+    display: block;
+    max-width:75rem;
+}
+
+div.weathergallery figure {
+    flex-basis: 29%;
+}
+
+div.weathergallery img:hover {box-shadow: 0 0 80px #028090}
+}
+
+
+/*----------FORM-----------*/
+
+form label.sbs{
+    padding: .4rem 0;
+}
