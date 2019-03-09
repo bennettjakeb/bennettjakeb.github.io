@@ -18,10 +18,7 @@ div.weathergallery figure {
 div.weathergallery img:hover {box-shadow: 0 0 80px #028090}
 }
 
-#town {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 
 
