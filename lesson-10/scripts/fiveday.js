@@ -1,5 +1,5 @@
 var forcast  = new XMLHttpRequest();
-forcast.open('GET','http://api.openweathermap.org/data/2.5/forecast?id=5061036&appid=bc867b22ec7fc59aa9b901b6ef54bd32&units=imperial',true);
+forcast.open('GET','//api.openweathermap.org/data/2.5/forecast?id=5061036&appid=bc867b22ec7fc59aa9b901b6ef54bd32&units=imperial',true);
 
 forcast.send();
 
