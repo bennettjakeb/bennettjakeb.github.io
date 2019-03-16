@@ -14,6 +14,8 @@
 <link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
 <script src="scripts/hamburger.js"></script>
+<script src="scripts/fiveday.js"></script>
+<script src="scripts/weather.js"></script>
 </head>
 
 <body>
@@ -52,12 +54,12 @@
 
             
             <p class="current">
-            Current Conditions<br>
-            Partly Cloudy<br>
-            Low: 36°<br>
-            High: 59°<br>
-            Windspeed: 8mph <br>
-            Windchill:<script src="scripts/windchill.js"></script>
+            Conditions for <span id="place">place</span><br>
+            Currently:  <span id="currently">current</span><br>
+            Temperature: <span id="currentTemp">temp</span>&deg;<br>
+            Humidity: <span id="humid"></span>%<br>
+            Windspeed: <span id="currentWind"></span> mph<br>
+            Windchill: <span id="windChill"></span>°
            </p>
     </div>
 
@@ -72,34 +74,34 @@
             <th>Wind</th>
         </tr>
         <tr>
-            <td>Monday</td>
-            <td>Partly Cloudy</td>
-            <td>36° / 59°</td>
-            <td>West 8mph</td>
+            <td>1</td>
+            <td><span id="description1"></span></td>
+            <td><span id="low1"></span>°F / <span id="high1"></span>°F</td>
+            <td><span id="wind1"></span> mph</td>
         </tr>
         <tr>   
-            <td>Tuesday</td>    
-            <td>Showers</td>
-            <td>30° / 53°</td>
-            <td>SouthWest 4mph</td>
+            <td>2</td>    
+            <td><span id=description2></span></td>
+            <td><span id="low2"></span>°F / <span id="high2"></span>°F</td>
+            <td><span id="wind2"></span> mph</td>
         </tr>
         <tr>
-            <td>Wednesday</td>
-            <td>Sunny</td>
-            <td>48° / 59°</td>
-            <td>North 5mph</td>
+            <td>3</td>
+            <td><span id="description3"></span></td>
+            <td><span id="low3"></span>°F / <span id="high3"></span>°F</td>
+            <td><span id="wind3"></span> mph</td>
         </tr>
         <tr>
-            <td>Thursday</td>
-            <td>Light Showers</td>
-            <td>37° / 45°</td>
-            <td>South 4mph</td>
+            <td>4</td>
+            <td><span id="description4"></span></td>
+            <td><span id="low4"></span>°F / <span id="high4"></span>°F</td>
+            <td><span id="wind4"></span> mph</td>
         </tr>
         <tr>
-            <td>Friday</td>
-            <td>Partly Cloudy</td>
-            <td>46° / 52°</td>
-            <td>NorthWest 6mph</td>
+            <td>5</td>
+            <td><span id="description5"></span></td>
+            <td><span id="low5"></span>°F / <span id="high5"></span>°F</td>
+            <td><span id="wind5"></span> mph</td>
         </tr>
     </table>
 
@@ -137,6 +139,10 @@
 
     <p>
     Email: hailsnortumchiresauce @email.com
+    </p>
+
+    <p>
+        Weather Info provided by <a href="https://openweathermap.org/">Open Weather Map</a>
     </p>
 </div>
 
