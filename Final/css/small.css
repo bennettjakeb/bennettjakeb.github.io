@@ -7,14 +7,14 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- BODY --------------*/
 
-
+h1,h2{ font-family: 'Roboto Slab', serif;}
 
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #F0F3BD;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #3E7C7C;
+    font-family: 'Lato', sans-serif;
     display: grid;
     grid-template-columns: 75px auto;
     
@@ -28,7 +28,7 @@ header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
 
 nav button {
   margin: .2rem 2%;
-  background-color: rgba(220, 230, 235, 0.897);
+  background-color:#778FF2;
   border: none;
   font-size: 1.6rem;
 
@@ -36,7 +36,7 @@ nav button {
 
 nav {
     background-color: #05668D;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lato', sans-serif ;
 }
 nav ul {
     list-style-type: none;
@@ -54,11 +54,11 @@ nav ul li a {
     font-size: .9rem;
 }
 nav ul li a:hover {
-    background-color: #028090;
+    background-color: #E7B892;
     color: black;
 }
 nav ul li.active a {
-    background-color: rgb(97, 170, 154);
+    background-color:#E7B892;
     color: #fff;
 }
 
@@ -93,7 +93,7 @@ nav ul.hide {display: none;}
   text-align: center;
 }
 
-#town p{
+#about p{
   text-align: center;
   font-size: 15px;
   margin: auto;
@@ -104,17 +104,17 @@ nav ul.hide {display: none;}
   display: none;
 }
 
-div.weathergallery {
+div.temple_gallery {
   display: flex;
   flex-wrap: wrap;
 }
 
-div.weathergallery figure {
+div.temple_gallery figure {
   flex-basis:96%;
   margin: 1rem 2%;
 }
 
-div.weathergallery figure img {
+div.temple_gallery figure img {
   width: 100%;
 }
 
@@ -147,7 +147,10 @@ figure{
   margin: 0;
 }
 
-figcaption {text-align: center;}
+figcaption {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
@@ -228,14 +231,15 @@ div .contact p{ padding: .5rem 2%;}
   width: 100%;
   margin: 0; 
   background-color: grey;
+  font-family:'Lato', sans-serif;
 }
 
 footer {
-    background-color: #F0F3Bd;
+    background-color: #3E7C7C;
     display: block;
     margin: 0;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 1rem;
     
 }
