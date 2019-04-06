@@ -1,0 +1,103 @@
+<!doctype HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="Weather site" content="Weather and updates near Preston Idaho">
+<meta name="Author" content="Jakeb Bennett">
+<title>Temple Inn and Suites: Reservations</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+
+<!--JAVASCRIPT-->
+<script src="scripts/hamburger.js"></script>
+
+</head>
+
+<body>
+
+<header class="clearfix">
+    <img src="images/logo.jpg" alt="Website Logo">
+<div>
+    <h1>Temple Inn And Suites</h1>
+    <h2>Let us help you relax</h2>
+</div>
+</header>
+
+
+<nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+<ul id="primaryNav" class="hide">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="temple.html">Temples</a></li>
+    <li class="active"><a href="reservation.html">Reservations</a></li>
+    <li><a href="services.html">Service Provided</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+    <h1>Reserve Your Stay Today!</h1>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Information Needed</legend>
+            <label class="top">Full Name*<input type="text" name="fname" required pattern="[A-Za-z].{2,}"></label>
+            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+            <label class="top">Phone Number*<input type="tel" name="phone" placeholder="123-555-5555" required></label>
+            <label Class="top">Where are you traveling from?<input type="text" name="from"></label>
+            <label class="top">Which location would you like to stay at?
+                <select>
+                    <option value selected disabled="Select Location...">Select Location</option>
+                    <option value="Preston">Washington, DC</option>
+                    <option value="Soda Springs">Seattle, WA</option>
+                    <option value="Fish Haven">Chicago, IL</option>
+                    <option calue="Salt Lake City">Salt Lake City, UT</option>
+                </select>
+            </label>
+
+            <label class="top">Date you wish to reserve?<input type="date" name="stayDate"></label>
+            <label class="top">How many rooms?<input type="text" name="rooms"></label>
+            <label class="top">What kind of room(s) would you like?
+                <select>
+                    <option value selected disabled="Please select">Choose one</option>
+                    <option value="regular">Regular, 1 bed</option>
+                    <option value="deluxe">Deluxe, 2 bed room</option>
+                    <option value="suite">Suite, 1 bed / kitchen</option>
+                    <option value="suite2">Suite, 2 bed / kitchen</option>
+                </select>
+            </label>
+
+            <div>Any special accommodations?</div>
+            <textarea rows="6" cols="60">
+
+            </textarea>
+
+
+        </fieldset>
+
+
+            <input type="submit" value="Reserve My Spot Today!" class="submitBtn">
+
+
+
+
+
+    </form>
+
+</main>
+
+<footer>
+    &copy; Jake Bennett | <script src="scripts/currentdate.js"></script>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
