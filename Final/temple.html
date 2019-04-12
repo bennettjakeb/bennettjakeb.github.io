@@ -16,6 +16,7 @@
 <!--JAVASCRIPT-->
 <script src="scripts/hamburger.js"></script>
 
+
 </head>
 
 <body>
@@ -42,25 +43,47 @@
 </nav>
 
 <main>
-    <h1>Temples</h1>
-    <p id="about">
-        We here at Temple Inn and Suites want to take all the 
-        hassle out of preparing your trip to the Temple in anyway that we can.
-        We are a company that prides ourselves on our service and having hospitality
-        for all those who choose to make their stay with us. We have several
-        locations, and we are planning on expanding very soon. So relax, and allow us
-        here at Temple Inn and Suites to help make your trip to the Temple, a special one.
-
-    </p>
-
-
-    <div class="temple_gallery">
-        <figure><img src="images/seattle.jpg" alt="temple"><figcaption>Seattle, Washington</figcaption></figure>
-        <figure><img src="images/youth_trip.jpg" alt="temple"><figcaption>Youth on a Temple Trip </figcaption></figure>
-        <figure><img src="images/wedding.jpg" alt="temple"><figcaption>Couples getting sealed</figcaption></figure>
-        <figure><img src="images/washington_dc.jpg" alt="temple"><figcaption>Washington, DC</figcaption></figure>
-    </div>
-
+        <h1> Current Temple Info </h1>
+           <section class="templeinfo"></section>
+            <div class="conditions">
+            <div class="place">
+                    <h2>Seattle</h2>
+                    <h3>Current Conditions</h3>
+                    <p>Currently: <span id="sky">currently</span></p>                        
+                    <p>Temperature: <span id ="temp">temp</span>°</p>
+                    <p>Humidity: <span id ="humidity">humidity</span>%</p>
+                    <p>Wind: <span id="windSpeed"></span>mph</p>
+                    <p>Feels like: <span id="windChill"></span>°</p>
+                    </div>
+                <div class="place">                       
+                        <h2>Washington DC</h2>
+                        <h3>Current Conditions</h3>
+                        <p>Currently: <span id="sky2">currently</span></p>
+                        <p>Temperature: <span id ="temp2">temp</span>°</p>
+                        <p>Humidity: <span id ="humidity2">humidity</span>%</p>
+                        <p>Wind: <span id="windSpeed2"></span>mph</p>
+                        <p>Feels like: <span id="windChill2"></span>°</p>
+                    </div>
+                <div class="place">
+                        <h2>Chicago Illinois</h2>
+                        <h3>Current Conditions</h3>
+                        <p>Currently: <span id="sky3">currently</span></p>
+                        <p>Temperature: <span id ="temp3">temp</span>°</p>
+                        <p>Humidity: <span id ="humidity3">humidity</span>%</p>
+                        <p>Wind: <span id="windSpeed3"></span>mph</p>
+                        <p>Feels like: <span id="windChill3"></span>°</p>
+                    </div>
+                <div class ="place">
+                        <h2>Salt Lake City</h2>
+                        <h3>Current Conditions</h3>
+                        <p>Currently: <span id="sky4">currently</span></p>
+                        <p>Temperature: <span id ="temp4">temp</span>°</p>
+                        <p>Humidity: <span id ="humidity4">humidity</span>%</p>
+                        <p>Wind: <span id="windSpeed4"></span>mph</p>
+                        <p>Feels like: <span id="windChill4"></span>°</p>
+                    </div>
+                </div>
+    </main>
    
 
 <div class="contact">
@@ -82,6 +105,8 @@
 <footer>
     &copy;   <script src="scripts/currentdate.js"></script>
 </footer>
+
+<script src="scripts/templeinfo.js"></script>
 
 </body>
 </html>

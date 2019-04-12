@@ -118,6 +118,50 @@ img{
 }
 
 
+.templeinfo{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.templeinfo article {
+  width: 400px;
+  margin: 2rem 2%;
+  padding:8px;
+  border:3px solid #778FF2;
+  box-shadow: 0 0 20px #333;    
+}
+
+
+.templeinfo h2{
+  margin-top:0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.templeinfo p{
+  margin-bottom:8px;
+}
+.templeinfo li{
+  font-size:small;
+  margin-bottom:5px;
+
+}
+.templeinfo article img {
+  display:flex;
+  margin: 0 auto;
+  height:auto;
+  width:380px;
+}
+.conditions {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.place {
+  border: 2px solid #508991;
+  padding: 5px;
+}
+
+
 /*Article*/
 
 article h1 {margin: 12px;}
