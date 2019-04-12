@@ -1,0 +1,85 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 41em) {
+
+
+    /*----------- BODY --------------*/
+    
+
+    
+    /*----------- HEADER --------------*/
+
+    
+    /*----------- NAVIGATION --------------*/
+
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{display: block;}
+
+nav li {
+    background-color: #05668D;
+    float: left;
+    width: 16.6%;
+    margin-left: auto;
+}
+
+main h1{
+    clear:both;
+    padding: 6px;
+}
+
+div.temple_gallery{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+div.wedding_day{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+div.temple_gallery img:hover{
+    box-shadow: 0 0 80px #E7B892;
+}
+
+main article img{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    padding-bottom: .5rem;
+}
+
+div.senior_room{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
+
+
+
+
+
+
+    /*----------- MAIN --------------*/
+
+    
+    /*----------- FOOTER --------------*/
+
+
+    .contact{
+        column-count: 2;
+    }
+    
+}/* end of media query */

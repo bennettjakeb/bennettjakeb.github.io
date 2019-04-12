@@ -65,32 +65,26 @@ nav ul li.active a {
 nav ul.hide {display: none;}
 
 /*----------- MAIN --------------*/
-#town{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5px;
-  padding: 12px;
+p{
+  font-family:'Lato', sans-serif ;
 }
 
-#town article img{
-  width:100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  
+main{
+  background-color:#DCDCDC;
+  font-size: 15px;
+  margin: auto;
+  padding: 2%;
+
 }
 
-#town article{
-  width: 100%;
-  background-color:rgb(55, 197, 154);
-  margin-bottom: 15px;
-  margin-left: 5px;
-  margin: 15px;
+main.form{
+  background-color: white;
 }
 
-#town h2{
-  text-align: center;
+div.service{
+  font-size: 15px;
+  margin: auto;
+  padding: 2%;
 }
 
 #about p{
@@ -123,18 +117,15 @@ img{
   margin: auto;
 }
 
-.fiveday{
-
-  display: none;
-}
-
-.fiveday h2{ text-align: center;}
 
 /*Article*/
 
 article h1 {margin: 12px;}
 
-article {margin: 8px;}
+article {
+  margin: 8px;
+  
+}
 
 figure img {
 
@@ -155,6 +146,7 @@ figcaption {
 
 
 /* ---------- FORM STYLE ---------*/
+
 
 form fieldset {
   margin: 2rem 0;  
