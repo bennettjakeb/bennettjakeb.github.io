@@ -7,11 +7,11 @@ weatherObject.onload = function() {
     var weatherInfo = JSON.parse(weatherObject.responseText);
     console.log(weatherInfo);
 
-    document.getElementById('place').innerHTML = weatherInfo.name;
-    document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
-    document.getElementById('currentWind').innerHTML = weatherInfo.wind.speed;
-    document.getElementById('humid').innerHTML = weatherInfo.main.humidity;
-    document.getElementById('currently').innerHTML = weatherInfo.weather[0].description;
+    document.getElementById('place2').innerHTML = weatherInfo.name;
+    document.getElementById('currentTemp2').innerHTML = weatherInfo.main.temp;
+    document.getElementById('currentWind2').innerHTML = weatherInfo.wind.speed;
+    document.getElementById('humid2').innerHTML = weatherInfo.main.humidity;
+    document.getElementById('currently2').innerHTML = weatherInfo.weather[0].description;
 
     var temp = parseFloat(document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp);
     var wind = parseFloat(document.getElementById('currentWind').innerHTML = weatherInfo.wind.speed);

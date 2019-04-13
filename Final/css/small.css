@@ -65,6 +65,7 @@ nav ul li.active a {
 nav ul.hide {display: none;}
 
 /*----------- MAIN --------------*/
+
 p{
   font-family:'Lato', sans-serif ;
 }
@@ -123,12 +124,12 @@ img{
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .templeinfo article {
   width: 400px;
   margin: 2rem 2%;
-  padding:8px;
-  border:3px solid #778FF2;
-  box-shadow: 0 0 20px #333;    
+  padding:8px; 
+  border: solid #05668D;
 }
 
 
@@ -156,8 +157,7 @@ img{
   flex-wrap:wrap;
   justify-content: space-between;
 }
-.place {
-  border: 2px solid #508991;
+.temple {
   padding: 5px;
 }
 
