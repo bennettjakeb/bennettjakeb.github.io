@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+
+    <h1>Example 1</h1>
+    <p>In this example I am using the action from clicking a button to dynamically change the text style,
+        I will change this normal font and size, to a blue text of words, alinged to the right side 
+        of the page, and the size will be increased as well. 
+    </p>
+
+    <p id="para">Look at me I'm just a bunch of words!</p>
+    <button type="button" onclick="myFunction()">Click here</button>
+
+
+    <h1>Example 2</h1>
+
+    <p>In this example I am going to be making the text that is under this heading dissappear and reappear
+        using the same method as before using a button and a few diffrent Javascript codes.
+    </p>
+
+    <br>
+
+
+    <p id="para2"> Random lines of jibberish</p>
+    <button type="button" onclick="visible()">Click me to show</button>
+    <br>
+    <button type="button" onclick="invisible()">Click me to hide</button>
+
+
+<script>
+    function myFunction(){
+        // document.getElementById(id name).style.property = new style;
+
+        document.getElementById("para").style.color="blue";
+        document.getElementById("para").style.textAlign="right";
+        document.getElementById("para").style.fontSize="3em";
+    }
+
+    function visible(){
+        document.getElementById("para2").style.visibility="visible";
+    }
+
+    function invisible(){
+        document.getElementById("para2").style.visibility="hidden";
+    }
+</script>
+
+</body>
+</html>
