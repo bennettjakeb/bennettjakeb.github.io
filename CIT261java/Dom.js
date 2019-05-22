@@ -25,3 +25,8 @@ function myFunction2(){
     var list = document.getElementById("myList");
     list.removeChild(list.childNodes[0]);
 }
+
+function removeKid(){
+    var list = document.getElementById("myList");
+    list.removeChild(list.lastChild)
+}
