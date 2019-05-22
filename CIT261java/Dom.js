@@ -13,6 +13,7 @@ function addElement(){
     document.body.insertBefore(newDiv, currentDiv);
 }
 
+
 function myFunction(){
     var node = document.createElement("LI");
     var textnode = document.createTextNode("Water");

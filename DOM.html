@@ -2,13 +2,20 @@
 <html>
     <head>
         <title>Working with DOM</title>
-        <script src="CIT261java/Dom.js"></script>
     </head>
 
 <body>
+
+<h1>Example 1</h1>
+
+
+
     <div id="div1">The text right above this is being made dynamically by using 
         DOM Manipulation.
     </div>
+
+
+    <h1>Example 2</h1>
 
 
     <ul id="myList">
@@ -25,39 +32,19 @@
         <button onClick="myFunction()">Try it</button>
 </body>
 
-
+    <h1>Example 3</h1>
 
 <p>Click this button to remove the first item from this list</p>
-<button onclick="myFunction2()">Try it</button>
+<button onClick="myFunction2()">Try it</button>
 
 
-<script>
-document.body.onload = addElement;
 
-function addElement(){
-    // create a new div element
-    var newDiv = document.createElement("div");
-    // give it some content
-    var newContent = document.createTextNode("Hello, Its nice to meet you!");
-    // add the text node to the newly created div
-    newDiv.appendChild(newContent);
+<footer>
 
-    // add the newly created element and its content into the DOM
-    var currentDiv = document.getElementById("div1");
-    document.body.insertBefore(newDiv, currentDiv);
-}
+    <script src="CIT261java/Dom.js"></script>
 
-function myFunction(){
-    var node = document.createElement("LI");
-    var textnode = document.createTextNode("Water");
-    node.appendChild(textnode);
-    document.getElementById("myList").appendChild(node);
-}
+</footer>
 
-function myFunction2(){
-    var list = document.getElementById("myList");
-    list.removeChild(list.childNodes[0]);
-}
 
-</script>
+
 </html>
