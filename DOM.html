@@ -6,6 +6,58 @@
     </head>
 
 <body>
-    <div id="div1">The text right above this is being made dynamically</div>
+    <div id="div1">The text right above this is being made dynamically by using 
+        DOM Manipulation.
+    </div>
+
+
+    <ul id="myList">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Soda</li>
+        <li>Hotdog</li>
+        <li>Brownies</li>
+    </ul>
+
+    <p>Click the button to append an item to the end of the 
+        list.</p>
+
+        <button onClick="myFunction()">Try it</button>
 </body>
+
+
+
+<p>Click this button to remove the first item from this list</p>
+<button onclick="myFunction2()">Try it</button>
+
+
+<script>
+document.body.onload = addElement;
+
+function addElement(){
+    // create a new div element
+    var newDiv = document.createElement("div");
+    // give it some content
+    var newContent = document.createTextNode("Hello, Its nice to meet you!");
+    // add the text node to the newly created div
+    newDiv.appendChild(newContent);
+
+    // add the newly created element and its content into the DOM
+    var currentDiv = document.getElementById("div1");
+    document.body.insertBefore(newDiv, currentDiv);
+}
+
+function myFunction(){
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode("Water");
+    node.appendChild(textnode);
+    document.getElementById("myList").appendChild(node);
+}
+
+function myFunction2(){
+    var list = document.getElementById("myList");
+    list.removeChild(list.childNodes[0]);
+}
+
+</script>
 </html>
