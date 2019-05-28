@@ -15,18 +15,20 @@ function addElement(){
 
 
 function myFunction(){
-    var node = document.createElement("LI");
-    var textnode = document.createTextNode("Water");
-    node.appendChild(textnode);
-    document.getElementById("myList").appendChild(node);
+    var node = document.createElement("LI"); // creates a <li> node
+    var textnode = document.createTextNode("Water"); // creates a text node
+    node.appendChild(textnode); // append text to the li
+    document.getElementById("myList").appendChild(node); // append li to ul
 }
 
 function myFunction2(){
-    var list = document.getElementById("myList");
-    list.removeChild(list.childNodes[0]);
+    var list = document.getElementById("myList"); // obtain the <ul> element with id="myList"
+    list.removeChild(list.childNodes[0]); // remove <ul>'s first child node
 }
 
 function removeKid(){
-    var list = document.getElementById("myList");
-    list.removeChild(list.lastChild)
+    var list = document.getElementById("myList"); // obtain the ul element
+    list.removeChild(list.lastChild) // remove <ul>'s last child node
 }
+
+
